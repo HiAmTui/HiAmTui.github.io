@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One|Pangolin');
+
+.header{
+	height: 70px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.header img{
+	position: absolute;
+	right: 30px;
+	top: 7px;
+	display: block;
+	height: 55px;
+	filter: brightness(100); | contrast(0);
+}
+
+body {
+	background: #303030;
+}
+
+#center {
+	text-align: center;
+}
+
+body .whitebg {
+	padding: 15px;
+	background: #F0F0F0;
+}
+
+body .blackbg {
+	padding: 15px;
+	background: #303030;
+}
+
+#news{
+	margin: 15px;
+}
+
+#icon1 {
+	position: absolute;
+}
+
+#icon2 {
+	position: absolute;
+	margin-left: 50px;
+}
+
+.tab-drop {
+	background-color: #000000;
+}
+
+.dropButton {
+	background-color: #000000;
+	color: #A9A9A9;
+	padding: 15px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+.drop {
+	position: relative;
+	display: inline-block;
+}
+
+.drop-content {
+	display: none;
+	position: absolute;
+	background-color: #000000;
+	min-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+
+.drop-content a {
+	color: #A9A9A9;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.drop-content a:hover {
+	background-color: #000000;
+}
+
+.drop:hover .drop-content {
+	display: block;
+}
+
+.drop:hover .dropButton {
+	background-color: #000000;
+}
+
+
+
+
+.dropButton2 {
+	background-color: #000000;
+	color: #A9A9A9;
+	padding: 15px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+.drop2 {
+	position: relative;
+	display: inline-block;
+}
+
+.drop-content2 {
+	display: none;
+	position: absolute;
+	background-color: #000000;
+	min-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+
+.drop-content2 a {
+	color: #A9A9A9;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.drop-content2 a:hover {
+	background-color: #000000;
+}
+
+.drop2:hover .drop-content2 {
+	display: block;
+}
+
+.drop2:hover .dropButton2 {
+	background-color: #000000;
+}
+
+.input1 {
+	text-align: center;
+	padding-top: 15px;
+}
+
+#intro {
+	line-height: 1.8;
+}
+
+h3 {
+	text-align: center;
+}
+
+#center {
+	text-align: center;
+}
+
+#hello {
+	height: auto;
+}
+
+#well_black {
+	background-color: rgba(0,0,0,0.1);
+}
+
+#rain{
+	color: #eee;
+	text-align: right;
+
+}
+
+#novel{
+	height: 300px;
+}
+
+.gotRow{
+	margin-right: 0.1% ; margin-left: 0.1%;
+}
